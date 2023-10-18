@@ -20,7 +20,7 @@ function configureSkryreContraption(componentsArr) {
   const hasPowerSource = validComponents.find(
     (component) => component.type === "power source"
   );
-  const noDuplicateNamesArr = new Set(componentNames);
+  const noDuplicateNamesSet = new Set(componentNames);
   if (
     hasPowerSource === undefined ||
     noDuplicateNamesArr.size !== componentNames.length
