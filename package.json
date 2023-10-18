@@ -1,0 +1,14 @@
+{
+  "name": "clanskryre-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "configureSkryreContraption.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Edd",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -32,3 +32,16 @@ The function should return an object with two arrays:
 
 - `validComponents` - an array of components that meet the validation rules.
 - `invalidComponents` - an array of components that do not meet the validation rules.
+
+### Example Data
+
+```
+const components = [
+  { name: "Power Cell", type: "power source", rating: 5 },
+  { name: "Connector A", type: "connector", rating: 3 },
+  { name: "Circuit X", type: "circuit", rating: 2 },
+  { name: "Power Unit", type: "power source", rating: 4 },
+  { type: "connector", rating: 1 },
+  { name: "Circuit Y", type: "circuit", rating: 3 },
+]
+```
