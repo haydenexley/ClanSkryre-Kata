@@ -23,7 +23,7 @@ function configureSkryreContraption(componentsArr) {
   const noDuplicateNamesSet = new Set(componentNames);
   if (
     hasPowerSource === undefined ||
-    noDuplicateNamesArr.size !== componentNames.length
+    noDuplicateNamesSet.size !== componentNames.length
   ) {
     invalidComponents = invalidComponents.concat(validComponents);
     validComponents.length = 0;
